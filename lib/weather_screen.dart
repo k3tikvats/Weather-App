@@ -132,6 +132,9 @@ class _WeatherScreenState extends State<WeatherScreen> {
           //so we have to call the fxn again in set state and reinitialise the variable
           //now no differnce bw weather and getCurrentWeather() written after future in a simple app
           //but in a bigger app it would make a differnce--in inherited widget--when we talk about state management
+          //build fxn will get called even when set state is not called
+          //even set state is kind of a state management 
+          //in 2 or more unrealated screens things like inherited widget and riverpod comes into picture
           builder: (context,snapshot) {
             print(snapshot);
 
