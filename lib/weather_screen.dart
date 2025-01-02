@@ -134,7 +134,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
           //but in a bigger app it would make a differnce--in inherited widget--when we talk about state management
           //build fxn will get called even when set state is not called
           //even set state is kind of a state management 
-          //in 2 or more unrealated screens things like inherited widget and riverpod comes into picture
+          //in 2 or more unrealated screens things like inherited widget and riverpod comes into picture         
           builder: (context,snapshot) {
             print(snapshot);
 
