@@ -14,8 +14,8 @@ A new Flutter project.
 - Forecast Cards: Uses the ListView.builder widget to display forecast cards for upcoming weather
 
 ## Screenshots
-![Alt Text](screenshot/app.png)
-
+![app screenshot](screenshots/app.png)
+![webapp screenshot](screenshots/webapp.png)
 ## Installation
 
 ### 1.Clone the repository:
